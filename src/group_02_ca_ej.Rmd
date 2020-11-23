@@ -1,0 +1,19 @@
+---
+title: "Group 02 CA pollution burden"
+author: "Elmera Azadpour & Annie Lovell"
+date: "11/23/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(janitor)
+library(here)
+```
+
+#### a. read in the CalEnviroScreen data 
+```{r}
+ces <- read_csv(here("data","ces3demographics.csv")) %>% clean_names()
+```
+
