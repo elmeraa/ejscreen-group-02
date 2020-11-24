@@ -28,3 +28,6 @@ ggplot(data = ces, aes(x = white_percent, y=ces_3_0_score)) +
   scale_fill_gradient(low = "navy", high = "orange") +
   theme_minimal()
 ```
+Figure 1:  This figure shows that as the percentrage of white people in a population increases, the pollution burden score decreases, and the the count of people at the lower pollution burden scores is greater.  For lower percent white population there are higher counts at higher pollution burden scores.  
+
+
